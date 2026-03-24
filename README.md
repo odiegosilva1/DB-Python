@@ -13,8 +13,8 @@ Projeto simples utilizando Python e Peewee ORM para gerenciamento de registros c
 
 1. **Clone o repositório**
 ```bash
-git clone [https://github.com/odiegosilva1/DB-Python]
-cd [DB-Python]
+git clone https://github.com/odiegosilva1/DB-Python
+cd DB-Python
 ```
 
 2. **Crie e ative o ambiente virtual**
