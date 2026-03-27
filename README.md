@@ -1,6 +1,4 @@
-Aqui está um README completo e profissional para o seu projeto no GitHub:
 
-```markdown
 # 🚀 Flask GitHub Style Authentication
 
 Um sistema de autenticação moderno construído com Flask, apresentando uma interface inspirada no GitHub com design responsivo e foco em UX.
@@ -9,6 +7,8 @@ Um sistema de autenticação moderno construído com Flask, apresentando uma int
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
 ![CSS3](https://img.shields.io/badge/CSS3-GitHub%20Style-blue?style=flat-square&logo=css3)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+```markdown
+
 
 ## ✨ Funcionalidades
 
@@ -189,7 +189,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Seu Nome - [@seu-usuario](https://github.com/seu-usuario)
+Seu Nome - [@seu-usuario](https://github.com/odiegosilva1)
 
 ---
 
@@ -261,7 +261,7 @@ Thumbs.db
 ## 📞 **Suporte**
 
 Se você tiver alguma dúvida ou encontrar algum problema, por favor:
-- Abra uma [issue](https://github.com/seu-usuario/flask-github-style/issues)
+- Abra uma [issue](https://github.com/odiegosilva1/flask-github-style/issues)
 - Entre em contato via email
 
 ---
