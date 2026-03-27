@@ -1,15 +1,20 @@
-from database import db, Usuario, Anuncio
+from flask import Flask, render_template, request
+from markupsafe import escape # Import escape to prevent XSS attacks
 
-db.connect()
-db.create_tables([Usuario, Anuncio])
 
-# Criando um usuário
-#usuario1 = Usuario.create(nome='João Silva', email='joao.silva@example.com', senha='senha123')
-#usuario1 = Usuario.create(nome='Maria Silva', email='maria.silva@example.com', senha='senha123')
-#usuario1 = Usuario.create(nome='jujubinha', email='jujubinha@example.com', senha='senha123')
+app = Flask(__name__)
 
-lista_usuarios = Usuario.select()
-print("Lista de usuários:")
+# Define a route for the root URL
+@app.route('/')
+def home():
+    return render_template('index.html')
 
-for u in lista_usuarios:
-    print("-", u.nome, "-", u.email)
+@app.route('/form', methods=['GET', 'POST'])
+def form():
+    name = request.form['name']
+    return render_template('form.html')
+
+
+# Run the Flask application
+if __name__ == '__main__':
+    app.run(debug=True)
