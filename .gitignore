@@ -23,19 +23,52 @@ wheels/
 .installed.cfg
 *.egg
 
-# Flask
-instance/
-.webassets-cache
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# PowerShell scripts (se você não quiser que eles apareçam)
+*.ps1
+*.psm1
+*.psd1
+
+# VS Code
+.vscode/
+*.code-workspace
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Logs
 *.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask
+instance/
+.webassets-cache
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
